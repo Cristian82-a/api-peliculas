@@ -1,0 +1,16 @@
+{% extends "layout.njk" %}
+
+{% block content %}
+  <h2>{{ movie.title }}</h2>
+  <p><strong>Año:</strong> {{ movie.year }}</p>
+  <p><strong>Director:</strong> {{ movie.director }}</p>
+  <p><strong>Duración:</strong> {{ movie.duration }} min</p>
+  <p><strong>Géneros:</strong> {{ movie.genre | join(", ") }}</p>
+  <p><strong>Puntuación:</strong> {{ movie.rate }}</p>
+  {% if movie.poster %}<p><img src="{{ movie.poster }}" alt="Póster" width="200"></p>{% endif %}
+
+  <p>
+    <a href="/web/movies/{{ movie.id }}/edit">Editar</a> |
+    <a href="/web/movies">Volver al listado</a>
+  </p>
+{% endblock %}

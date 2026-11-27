@@ -1,0 +1,18 @@
+{% extends "layout.njk" %}
+
+{% block content %}
+  <h2>{{ pageTitle }}</h2>
+
+  {% if error %}<p class="error">{{ error }}</p>{% endif %}
+
+  <form method="post" action="{{ action }}">
+    <label>Título <input name="title" value="{{ values.title }}" required></label>
+    <label>Año <input name="year" type="number" value="{{ values.year }}" required></label>
+    <label>Director <input name="director" value="{{ values.director }}" required></label>
+    <label>Duración (min) <input name="duration" type="number" value="{{ values.duration }}" required></label>
+    <label>Géneros (separados por comas) <input name="genre" value="{{ values.genreText }}" required></label>
+    <label>Puntuación (0-10) <input name="rate" type="number" step="0.1" value="{{ values.rate }}"></label>
+    <label>Póster (URL) <input name="poster" value="{{ values.poster }}"></label>
+    <p><button type="submit">Guardar</button> <a href="/web/movies">Cancelar</a></p>
+  </form>
+{% endblock %}

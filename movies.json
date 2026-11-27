@@ -1,0 +1,74 @@
+[
+  {
+    "id": "dcdd0fad-a94c-4810-8acc-5f108d3b18c3",
+    "title": "The Shawshank Redemption",
+    "year": 1994,
+    "director": "Frank Darabont",
+    "duration": 142,
+    "poster": "https://i.ebayimg.com/images/g/4goAAOSwMyBe7hnQ/s-l1200.webp",
+    "genre": [
+      "Drama"
+    ],
+    "rate": 9.3
+  },
+  {
+    "id": "a33a2ac9-d941-4677-8706-c8bbf3c09a42",
+    "title": "Pulp Fiction",
+    "year": 1994,
+    "director": "Quentin Tarantino",
+    "duration": 154,
+    "genre": [
+      "Crime",
+      "Drama"
+    ],
+    "rate": 8.9
+  },
+  {
+    "id": "3eecee60-e9c1-4ddc-92bd-38f78bf1165d",
+    "title": "Kill Bill: Vol. 1",
+    "year": 2003,
+    "director": "Quentin Tarantino",
+    "duration": 111,
+    "genre": [
+      "Action",
+      "Crime"
+    ],
+    "rate": 8.2
+  },
+  {
+    "id": "135d4eaf-982e-4f02-ac18-89cf37871022",
+    "title": "Inception",
+    "year": 2010,
+    "director": "Christopher Nolan",
+    "duration": 148,
+    "genre": [
+      "Sci-Fi",
+      "Action"
+    ],
+    "rate": 8.8
+  },
+  {
+    "id": "28522a1e-7e71-4cdd-a5e5-317ef59697e2",
+    "title": "Interstellar",
+    "year": 2014,
+    "director": "Christopher Nolan",
+    "duration": 169,
+    "genre": [
+      "Sci-Fi",
+      "Drama"
+    ],
+    "rate": 8.7
+  },
+  {
+    "id": "fe99802e-b814-4a41-bf23-b886a742772f",
+    "title": "Pan's Labyrinth",
+    "year": 2006,
+    "director": "Guillermo del Toro",
+    "duration": 118,
+    "genre": [
+      "Fantasy",
+      "Drama"
+    ],
+    "rate": 8.2
+  }
+]

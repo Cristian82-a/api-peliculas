@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <title>{% block title %}Películas{% endblock %}</title>
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 800px; margin: 2rem auto; padding: 0 1rem; }
+    table { border-collapse: collapse; width: 100%; }
+    th, td { border: 1px solid #ccc; padding: 6px 10px; text-align: left; }
+    label { display: block; margin-top: 10px; }
+    input { width: 100%; padding: 6px; }
+    .error { color: #b00020; }
+    .acciones form { display: inline; }
+  </style>
+</head>
+<body>
+  <h1><a href="/web/movies">Películas</a></h1>
+  {% block content %}{% endblock %}
+</body>
+</html>
